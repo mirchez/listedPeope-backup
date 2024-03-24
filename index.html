@@ -5,5 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="contenedor" id="cabecero">
+      <h1>Listado de Personas</h1>
+    </div>
+
+    <div class="contenedor">
+      <ul id="personas"></ul>
+    </div>
+
+    <div class="contenedor">
+      <div style="text-align: center">
+        <button style="cursor: pointer" onclick="agregarPersona()">+</button>
+      </div>
+      <form id="forma">
+        <input type="text" placeholder="Nombre" id="nombre" />
+        <input type="text" placeholder="Apellido" id="apellido" />
+      </form>
+    </div>
+
+    <script src="Persona.js"></script>
+    <script src="Listado.js"></script>
+  </body>
 </html>
